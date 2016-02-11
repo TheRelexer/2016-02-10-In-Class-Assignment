@@ -1,3 +1,53 @@
 body {
   background-color: lightgreen;
 }
+
+h1{
+  width: 90%;
+  margin-right: auto;
+  margin-left:auto;
+  color: #FF0088;
+  font-family: "papyrus", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  /* background-color: rgb(255,128,200); */
+}
+
+
+img,
+p {
+width: 33%;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto 0 auto;
+}
+
+
+img{
+    height: auto;
+  display: block;
+}
+p {
+  margin-top: 2em;
+  font-family: "papyrus", sans-serif;
+  color: #FF2088;
+}
+
+a {
+  margin: 2em auto 4em auto;
+  display: table;
+  color: white;
+  font-family: "papyrus",sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5em;
+  background-color: black;
+}
+
+a:hover {
+  background-color: darkgreen;
+}
+
+a:active {
+  background-color: green;
+}
